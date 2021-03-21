@@ -1,0 +1,42 @@
+*{
+    font-family: Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.main-header{
+    background-image: url("header bg.jpg");
+    padding: 20px;
+    background-size: cover;
+}
+
+.main-header-name{ 
+
+    padding: .5em;
+    color: white;
+}
+.main-header-job{
+
+    padding: 1em;
+    color: white;
+}
+
+
+button{
+
+    padding: .5em;
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+    height: 45px;
+    width: 150px;
+    color: white;
+}
+.btn-1{
+
+
+    color: white;
+}
+.btn-2{
+
+    color: white;
+}
