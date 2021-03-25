@@ -3,70 +3,67 @@
     <head>
         <title>Log in Form</title>
         <link rel="shortcut icon" href="kevin.ico">
+        <link rel="stylesheet" href="6Log in form.css">
     </head>
     <body>
-        <h2>Log in form</h2>
+        <h2>Know your customer</h2>
 
-        <form action="1HTML.html" method="GET" >
+        <form action="1HTML.html" method="GET" class="main-form">
 
             <!--Text form for username-->
-            <div>
+            <div class="form-group">
                 <label for="name"> Name </label>
                 <input type="text" name="name" id="name" placeholder="Juan Dela Cruz"required>
             </div>
             
             <!--Password-->
-            <div>
+            <div class="form-group">
                 <label for="password">Password</label>
                 <input type="password" name="password" id="password" placeholder="*******"required>
             </div>
 
             <!--Email-->
-            <div>
+            <div class="form-group">
                 <label for="email">E-mail address </label>
-                    <input type="email" name="email" id="email" placeholder="JDelaCruz@gmail.com"required>
+                    <input type="email" name="email" id="email" placeholder="JDCruz@gmail.com"required>
             </div>
 
             <!--Age / number-->
-            <div>
+            <div class="form-group">
                 <label for="age">Age</label>
                 <input type="number" name="age" id="age" step="1" min="10" max="100">
             </div>
 
             <!--Birthday / date-->
-            <div>
+            <div class="form-group">
                 <label for="birthday">Birthday</label>
                 <input type="date" name="date" id="birthday">
             </div>
 
             <!--Gender / radio -->
-            <div>
+            <div class="form-group">
                 Gender <br>
                 <label for="male">Male</label>
                 <input type="radio" name="gender" id="male">
-            </div>
-            <div>
                 <label for="female">Female</label>
                 <input type="radio" name="gender" id="female" checked>
             </div>
 
             <!--Allergies / checkbox-->
-            <div>
+            <div class="form-group">
                 Allergies <br>
                 <label for="chicken">Chicken</label>
                 <input type="checkbox" name="chicken" id="chicken">
-            </div>
-            <div>
+   
                 <label for="shrimp">Shrimp</label>
                 <input type="checkbox" name="shrimp" id="shrimp">
-            </div>
-            <div>
+
                 <label for="nuts">Nuts</label>
                 <input type="checkbox" name="nuts" id="nuts">
             </div>
 
             <!--Select function-->
-            <div>
+            <div class="form-group">
                 <label for="eyeColor">Eye Color</label>
                 <select name="eyeColor" id="eyeColor">
                     <option value="Green">Green</option>
@@ -76,31 +73,32 @@
             </div>
 
             <!--Bio / Text Area-->
-            <div>
+            <div class="form-group">
                 <label for="bio">Bio</label>
                 <textarea name="bio" id="bio" cols="30" rows="5">Your profile here!</textarea>
             </div>
 
+            
             <!--File Handling-->
-            <div>
+            <div class="form-group">
                 <label for="file">File</label>
                 <input type="file" name="file" id="file">
             </div>
 
             <!--Phone / tel-->
-            <div>
+            <div class="form-group">
                 <label for="phone">Phone number</label>
                 <input type="tel" name="phone" id="phone">
             </div>
 
             <!--URL-->
-            <div>
+            <div class="form-group">
                 <label for="url">URL</label>
                 <input type="url" name="url" id="url">
             </div>
 
             <!--Favorite color-->
-            <div>
+            <div class="form-group">
                 <label for="color">Color</label>
                 <input type="color" name="color" id="color">
             </div>
